@@ -3,37 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrCreator</title>
+    <title>FrCreator - O nás</title>
     <style>
-        /* Zde můžete přidat vlastní styly */
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
+            background-color: #000;
+            color: #fff;
             margin: 0;
             padding: 0;
         }
+
         header {
-            background-color: #000000;
+            background-color: #222;
             color: white;
-            padding: 10px 20px;
+            padding: 20px;
             text-align: center;
         }
+
         nav {
-            margin: 10px 0;
-            padding: 10px 20px;
-            background-color: #eee;
+            text-align: center;
+            margin: 20px 0;
         }
+
         nav a {
-            margin: 0 15px;
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
             text-decoration: none;
-            color: #333;
+            margin: 0 10px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
         }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
         main {
             padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
         footer {
-            background-color: #333;
+            background-color: #222;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -44,33 +68,47 @@
 <body>
 
 <header>
-    <h1>FrCreator</h1>
+    <h1>Vítejte ve firmě FrCreator</h1>
+    <p>Kreativní řešení pro váš úspěch</p>
 </header>
+
+<nav>
+    <a href="#home">Domů</a>
+    <a href="#about">O nás</a>
+    <a href="#services">Služby</a>
+    <a href="#contact">Kontakt</a>
+</nav>
 
 <main>
     <section id="home">
-        <h2>Náš Discord</h2>
-        <p>jsem dát nnáš discord server</p>
+        <h2>Domů</h2>
+        <p>FrCreator je přední firma zaměřená na inovativní řešení pro vaše podnikání. Jsme odborníky na kreativní design, marketing a technologická řešení, která posouvají vaši firmu na další úroveň.</p>
     </section>
 
     <section id="about">
         <h2>O nás</h2>
-        <p>Informace o mé stránce a mně samotném.</p>
+        <p>FrCreator byla založena v roce 2010 s vizí poskytovat špičkové služby v oblasti digitálního marketingu a tvorby obsahu. Naším cílem je pomáhat našim klientům dosahovat jejich cílů prostřednictvím kreativních a efektivních řešení.</p>
     </section>
 
     <section id="services">
         <h2>Služby</h2>
-        <p>Seznam služeb, které nabízím.</p>
+        <p>Nabízíme široké spektrum služeb, včetně:</p>
+        <ul>
+            <li>Kreativní design a branding</li>
+            <li>Digitální marketing</li>
+            <li>Vývoj webových aplikací</li>
+            <li>Konzultace a strategie</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Kontakt</h2>
-        <p>Zde můžete najít mé kontaktní informace.</p>
+        <p>Můžete nás kontaktovat na následující emailové adrese: <a href="mailto:info@frcreator.cz" style="color: #4CAF50;">info@frcreator.cz</a></p>
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2024 - Kotakovec</p>
+    <p>&copy; 2024 FrCreator. Všechna práva vyhrazena.</p>
 </footer>
 
 </body>
